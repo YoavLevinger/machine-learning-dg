@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>businessLogic</OriginalElement>
+  <nodes>
+    <node x="318.9999999999999" y="714.0">businessLogic.TemplateHandler</node>
+    <node x="265.7499999999999" y="313.5">businessLogic.excelTemplateDataRead</node>
+    <node x="1554.3973214285713" y="0.0">businessLogic.Gender</node>
+    <node x="0.0" y="725.5">businessLogic.Relation</node>
+    <node x="971.7499999999999" y="560.0">businessLogic.ProjectHandler</node>
+    <node x="1168.5" y="0.5">businessLogic.ProjectStatus</node>
+    <node x="66.70291479820628" y="528.7948430493275">businessLogic.RequiredOrder</node>
+    <node x="1533.5" y="213.5">businessLogic.Individual</node>
+    <node x="499.9999999999999" y="214.0">businessLogic.Handlers</node>
+    <node x="1763.75" y="692.5">businessLogic.RelationRecord</node>
+    <node x="1054.25" y="1170.0">businessLogic.RelationHandler</node>
+    <node x="994.9999999999999" y="147.0">businessLogic.Project</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="businessLogic.excelTemplateDataRead" target="businessLogic.excelTemplateDataRead">
+      <point x="-51.75" y="15.0" />
+      <point x="317.4999999999999" y="363.5" />
+      <point x="245.7499999999999" y="363.5" />
+      <point x="245.7499999999999" y="328.5" />
+      <point x="-103.5" y="-0.0" />
+    </edge>
+    <edge source="businessLogic.TemplateHandler" target="businessLogic.excelTemplateDataRead">
+      <point x="-102.0" y="-126.0" />
+      <point x="51.75" y="15.0" />
+    </edge>
+    <edge source="businessLogic.RelationHandler" target="businessLogic.Handlers">
+      <point x="-121.20000000000005" y="-236.0" />
+      <point x="1236.0499999999997" y="1140.0" />
+      <point x="737.4999999999999" y="1140.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="businessLogic.RelationHandler" target="businessLogic.RelationRecord">
+      <point x="242.4000000000001" y="-236.0" />
+      <point x="1599.65" y="1150.0" />
+      <point x="1943.25" y="1150.0" />
+      <point x="0.0" y="147.5" />
+    </edge>
+    <edge source="businessLogic.ProjectHandler" target="businessLogic.Gender">
+      <point x="96.375" y="-280.0" />
+      <point x="1453.625" y="535.0" />
+      <point x="1481.5" y="535.0" />
+      <point x="1481.5" y="122.0" />
+      <point x="1585.1473214285713" y="122.0" />
+      <point x="-30.75" y="48.5" />
+    </edge>
+    <edge source="businessLogic.RelationHandler" target="businessLogic.ProjectHandler">
+      <point x="0.0" y="-236.0" />
+      <point x="0.0" y="280.0" />
+    </edge>
+    <edge source="businessLogic.Individual" target="businessLogic.Gender">
+      <point x="0.0" y="-115.0" />
+      <point x="1680.0" y="122.0" />
+      <point x="1646.6473214285713" y="122.0" />
+      <point x="30.75" y="48.5" />
+    </edge>
+    <edge source="businessLogic.ProjectHandler" target="businessLogic.Individual">
+      <point x="289.125" y="-280.0" />
+      <point x="1646.375" y="535.0" />
+      <point x="1606.75" y="535.0" />
+      <point x="-73.25" y="115.0" />
+    </edge>
+    <edge source="businessLogic.ProjectHandler" target="businessLogic.Handlers">
+      <point x="-289.125" y="-280.0" />
+      <point x="1068.125" y="535.0" />
+      <point x="895.8333333333333" y="535.0" />
+      <point x="158.33333333333337" y="114.5" />
+    </edge>
+    <edge source="businessLogic.ProjectHandler" target="businessLogic.Project">
+      <point x="-96.375" y="-280.0" />
+      <point x="1260.875" y="535.0" />
+      <point x="1233.0" y="535.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+    <edge source="businessLogic.RelationHandler" target="businessLogic.Individual">
+      <point x="121.20000000000005" y="-236.0" />
+      <point x="1478.4499999999998" y="1140.0" />
+      <point x="1753.25" y="1140.0" />
+      <point x="73.25" y="115.0" />
+    </edge>
+    <edge source="businessLogic.TemplateHandler" target="businessLogic.Handlers">
+      <point x="102.0" y="-126.0" />
+      <point x="624.9999999999999" y="535.0" />
+      <point x="579.1666666666665" y="535.0" />
+      <point x="-158.33333333333337" y="114.5" />
+    </edge>
+    <edge source="businessLogic.RelationHandler" target="businessLogic.Relation">
+      <point x="-242.39999999999998" y="-236.0" />
+      <point x="1114.85" y="1150.0" />
+      <point x="149.5" y="1150.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="businessLogic.Project" target="businessLogic.ProjectStatus">
+      <point x="0.0" y="-181.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4947310038824182" x="1061.5" y="891.5" />
+  <SelectedNodes>
+    <node>businessLogic.RequiredOrder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

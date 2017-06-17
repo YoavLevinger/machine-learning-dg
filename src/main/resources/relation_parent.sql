@@ -1,0 +1,1 @@
+select id as child, father_id as parent from individual where generation>0 UNION select id as child, mother_id as parent from individual where generation>0 order by child
