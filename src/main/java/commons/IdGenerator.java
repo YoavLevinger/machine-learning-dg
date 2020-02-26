@@ -42,7 +42,7 @@ public class IdGenerator {
 
 
     /**
-     * Trim or pas an Id composed of a Binary string
+     * Trim or pass an Id composed of a Binary string
      * @param id - The id String
      * @param length - The required length
      * @param trimLocation - MSB / LSB
